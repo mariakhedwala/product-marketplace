@@ -75,3 +75,10 @@ label.group:focus-within {
     border: 1px solid #fff;
     border-radius: 30px;
 }
+img {
+    width: auto;
+    height: auto;
+}
+h1 img {
+    width: 170px;
+}

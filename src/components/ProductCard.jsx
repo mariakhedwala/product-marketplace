@@ -8,7 +8,13 @@ const ProductCard = ({ product }) => {
         <li className=" text-custom-white rounded mb-5">
             <Link href={`/product/${product.id}`}>
                 <div className="bg-gray-600 rounded mb-4">
-                    <img src={product.image} alt={product.name} className="w-full h-full object-cover rounded" />
+                    <Image
+                        className="w-full h-full object-cover rounded"
+                        src={product.image}
+                        alt={product.name}
+                        width={200}
+                        height={150}
+                    />
                 </div>
                 <h3 className="text-lg font-bold product-name">{product.name}</h3>
                 <p className="text-sm text-gray-400 product-creator">Creator: {product.creator}</p>

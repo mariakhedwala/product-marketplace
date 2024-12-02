@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import CategoryModal from './CategoryModals';
 import FilterModal from './FilterModal';
+import Link from 'next/link';
 
 const Header = ({ categories, onCategoryChange, onSearchChange, selectedCategory, handleApplyFilters, setFilteredProducts }) => {
     const [searchQuery, setSearchQuery] = useState("");
@@ -13,6 +14,7 @@ const Header = ({ categories, onCategoryChange, onSearchChange, selectedCategory
 
     useEffect(() => {
         displayCategory();
+        // eslint-disable-next-line 
     }, [selectedCategory])
 
     const handleSearchInput = (e) => {
@@ -26,7 +28,6 @@ const Header = ({ categories, onCategoryChange, onSearchChange, selectedCategory
     };
 
     const displayCategory = () => {
-        console.log(selectedCategory);
         const displayName = selectedCategory.includes('All in') ? selectedCategory.split('in ')[1] : selectedCategory.split(' > ')[1];
         setShowCategory(displayName ? displayName : "All");
     }
@@ -35,7 +36,7 @@ const Header = ({ categories, onCategoryChange, onSearchChange, selectedCategory
         <header className="bg-black text-custom-white p-4 shadow-md">
             <div className="wrapper flex items-center justify-between">
                 <h1 className="text-2xl font-bold text-red-500">
-                    <a href="/">
+                    <Link href="/">
                         <Image
                             src="/logo.png"
                             alt="Product Marketplace Logo"
@@ -43,7 +44,7 @@ const Header = ({ categories, onCategoryChange, onSearchChange, selectedCategory
                             height={32}
                             className="rounded-full"
                         />
-                    </a>
+                    </Link>
                 </h1>
                 <div className={`flex space-x-4 header-search-cat justify-end md:justify-start`}>
                     {/* Search Icon - Visible on Mobile */}

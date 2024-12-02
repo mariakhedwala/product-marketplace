@@ -2,6 +2,7 @@
 import { useRouter } from 'next/router';
 import Layout from '@/components/Layout';
 import productsData from '@/data/products.json'; // Example dummy data
+import Image from 'next/image';
 
 const ProductDetailsPage = () => {
     const router = useRouter();
@@ -33,10 +34,12 @@ const ProductDetailsPage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {/* Image */}
                     <div>
-                        <img
+                        <Image
+                            className="w-full h-80 object-cover rounded-lg"
                             src={product.image}
                             alt={product.name}
-                            className="w-full h-80 object-cover rounded-lg"
+                            width={200}
+                            height={150}
                         />
                     </div>
 
@@ -61,11 +64,12 @@ const ProductDetailsPage = () => {
                             <span className="font-semibold text-gray-800 mr-1">Rating:</span>{' '}
                             <span className="flex items-center bg-black rounded w-fit p-1">
                                 {Array.from({ length: Math.floor(product.rating) }).map((_, index) => (
-                                    <img
+                                    <Image
                                         key={index}
-                                        src="/rating-star.png" // Replace with your star icon
-                                        alt="Star"
-                                        className="w-5 h-5 mr-1"
+                                        src="/rating-star.png"
+                                        alt="Product rating"
+                                        width={5}
+                                        height={5}
                                     />
                                 ))}
                             </span>
