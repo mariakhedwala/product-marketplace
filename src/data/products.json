@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "name": "Human-like Avatar",
+        "category": "Avatars",
+        "subCategory": "Human-like",
+        "creator": "Alice",
+        "price": 150.5,
+        "rating": 4.8,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 2,
+        "name": "Anthro & Furry Avatar",
+        "category": "Avatars",
+        "subCategory": "Anthro & Furry",
+        "creator": "Bob",
+        "price": 290.0,
+        "rating": 2,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 3,
+        "name": "Robot & Cyborg Avatar",
+        "category": "Avatars",
+        "subCategory": "Robot & Cyborgs",
+        "creator": "Charlie",
+        "price": 102.99,
+        "rating": 3,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 4,
+        "name": "Elegant Fashion Clothes",
+        "category": "Fashion",
+        "subCategory": "Clothes",
+        "creator": "Diana",
+        "price": 250.0,
+        "rating": 5.0,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 5,
+        "name": "Casual Fashion",
+        "category": "Fashion",
+        "subCategory": "Others",
+        "creator": "Eve",
+        "price": 999.99,
+        "rating": 4.6,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 6,
+        "name": "Streetwear Fashion",
+        "category": "Fashion",
+        "subCategory": "Clothes",
+        "creator": "Frank",
+        "price": 390.0,
+        "rating": 2.4,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 7,
+        "name": "Fantasy Avatar Pack",
+        "category": "Avatars",
+        "subCategory": "Others",
+        "creator": "Grace",
+        "price": 108.5,
+        "rating": 4.7,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 8,
+        "name": "Luxury Fashion Bags",
+        "category": "Fashion",
+        "subCategory": "Accessories",
+        "creator": "Hannah",
+        "price": 550.0,
+        "rating": 5,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 9,
+        "name": "Space Explorer Avatar",
+        "category": "Avatars",
+        "subCategory": "Others",
+        "creator": "Isaac",
+        "price": 198.99,
+        "rating": 4,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 10,
+        "name": "Vintage Fashion Clothes",
+        "category": "Fashion",
+        "subCategory": "Clothes",
+        "creator": "Jack",
+        "price": 35.0,
+        "rating": 1,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 11,
+        "name": "Cyberpunk Fashion",
+        "category": "Fashion",
+        "subCategory": "Clothes",
+        "creator": "Kara",
+        "price": 40.0,
+        "rating": 2,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 12,
+        "name": "Cute Fashion Accessories",
+        "category": "Fashion",
+        "subCategory": "Accessories",
+        "creator": "Laura",
+        "price": 809.5,
+        "rating": 1,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 13,
+        "name": "Steampunk Avatar",
+        "category": "Avatars",
+        "subCategory": "Others",
+        "creator": "Mike",
+        "price": 202.0,
+        "rating": 5,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 14,
+        "name": "Minimalist Fashion Accessories",
+        "category": "Fashion",
+        "subCategory": "Accessories",
+        "creator": "Nina",
+        "price": 129.0,
+        "rating": 3,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 15,
+        "name": "Fantasy Fashion Accessories",
+        "category": "Fashion",
+        "subCategory": "Accessories",
+        "creator": "Oscar",
+        "price": 15.0,
+        "rating": 1,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 16,
+        "name": "Winter Fashion Clothes",
+        "category": "Fashion",
+        "subCategory": "Clothes",
+        "creator": "Paula",
+        "price": 690.0,
+        "rating": 5,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 17,
+        "name": "Alien Avatar",
+        "category": "Avatars",
+        "subCategory": "Human-like",
+        "creator": "Quinn",
+        "price": 107.5,
+        "rating": 2,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 18,
+        "name": "Robot Fashion Accessories",
+        "category": "Fashion",
+        "subCategory": "Accessories",
+        "creator": "Rachel",
+        "price": 180.0,
+        "rating": 4,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 19,
+        "name": "Custom Cyborg Avatar",
+        "category": "Avatars",
+        "subCategory": "Robot & Cyborgs",
+        "creator": "Steve",
+        "price": 106.5,
+        "rating": 4,
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 20,
+        "name": "Outdoor Fashion Clothes",
+        "category": "Fashion",
+        "subCategory": "Clothes",
+        "creator": "Tina",
+        "price": 268.0,
+        "rating": 3,
+        "image": "https://via.placeholder.com/150"
+    }
+]
