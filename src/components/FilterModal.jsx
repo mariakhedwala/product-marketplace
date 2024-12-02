@@ -125,7 +125,7 @@ const FilterModal = ({ isOpen, onClose, onApply, onClear }) => {
                                     alt="VR Chat"
                                     width={52}
                                     height={24}
-                                    className="rounded-full cursor-pointer"
+                                    className="min-w-[60px] cursor-pointer"
                                 />
                                 <p className="p-2 text-[10px]">
                                     {platform}

@@ -14,13 +14,14 @@ const ProductCard = ({ product }) => {
                         alt={product.name}
                         width={200}
                         height={150}
+                        priority
                     />
                 </div>
                 <h3 className="text-lg font-bold product-name">{product.name}</h3>
                 <p className="text-sm text-gray-400 product-creator">Creator: {product.creator}</p>
 
                 {/* Product Rating */}
-                <div className="mt-1 flex items-center">
+                <div className="flex items-center product-rating">
                     <div className="flex items-center">
                         {Array.from({ length: roundedRating }, (_, index) => (
                             <Image

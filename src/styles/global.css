@@ -49,8 +49,7 @@ label.group:focus-within {
 }
 
 .header-search-cat img {
-    width: 40px;
-    height: 40px;
+    min-width: 40px;
 }
 
 .filter-menu { margin-left: 3px;}
@@ -68,6 +67,10 @@ label.group:focus-within {
 .category-wrap button {border-radius: 30px;}
 .category-wrap .left-border { border-left: 1px solid #646464;}
 .globe { width: 20px;}
+.globe img,
+.menu-account .menu img,
+.menu-account .account img,
+.cart img { width: 100%;}
 .menu-account .menu {width: 20px;}
 .menu-account .account {width: 26px;}
 .cart {width: 48px;}
@@ -81,4 +84,7 @@ img {
 }
 h1 img {
     width: 170px;
+}
+.product-rating img {
+    min-width: 15px;
 }
